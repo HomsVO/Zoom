@@ -163,6 +163,8 @@ table {
   font-size: 35px;
   border: none;
   background: #fff;
+  outline: none;
+  cursor: pointer;
 }
 @media (max-width: 574px) {
   #nav-toogler {
@@ -172,7 +174,7 @@ table {
     position: relative;
   }
   .nav-bar {
-    display: block;
+    display: none;
     position: absolute;
     top: 90px;
     left: 0;

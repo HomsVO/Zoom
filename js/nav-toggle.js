@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var btn = $('#nav-toogler');
 	var nav_bar = $('.nav-bar');
-	var flag = true;
+	var flag = false;
 	btn.on('click',function(){
 		if(flag){
 			nav_bar.hide(300);
