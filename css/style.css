@@ -208,7 +208,7 @@ table {
 .hero {
   font-family: 'Roboto Light', Arial, sans-serif;
   text-align: center;
-  height: 710px;
+  height: 590px;
   background: linear-gradient(to bottom, #6dffc6, #3fd2ce);
 }
 .hero h1 {
@@ -232,4 +232,37 @@ table {
   .hero h1 {
     font-size: 50px;
   }
+}
+.services {
+  font-size: 15px;
+  height: 600px;
+}
+.services a {
+  display: block;
+  font-size: 20px;
+  margin: 90px 0 80px 0;
+  padding: 25px 0;
+  width: 240px;
+  color: #fff;
+  background: linear-gradient(to bottom, #ff6c54, #ff2b59);
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+.service {
+  margin-top: 85px;
+  text-align: center;
+}
+.service h3 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Roboto Medium', Arial, sans-serif;
+  color: #3f4244;
+}
+.service p {
+  padding: 35px 0;
+  font-family: 'Roboto Regular', Arial, sans-serif;
+  font-size: 13px;
+  color: #929ba0;
 }
