@@ -158,7 +158,7 @@ table {
   border-radius: 10px;
   background: linear-gradient(to bottom, #6dffc6, #3fd2ce);
 }
-#nav-toogler {
+#nav-toggler {
   display: none;
   font-size: 35px;
   border: none;
@@ -166,8 +166,12 @@ table {
   outline: none;
   cursor: pointer;
 }
+.nav-toggler--active {
+  color: #fff;
+  background: linear-gradient(to bottom, #6dffc6, #3fd2ce) !important;
+}
 @media (max-width: 574px) {
-  #nav-toogler {
+  #nav-toggler {
     display: block;
   }
   .nav {
@@ -176,7 +180,9 @@ table {
   .nav-bar {
     display: none;
     position: absolute;
-    top: 90px;
+    background-color: #fff;
+    border-bottom: 3px solid #ff2b59;
+    top: 100px;
     left: 0;
   }
   .nav-bar__item {
@@ -194,5 +200,36 @@ table {
   }
   .nav-bar__item a:hover {
     background: none;
+  }
+  .nav-bar--mobile {
+    display: block;
+  }
+}
+.hero {
+  font-family: 'Roboto Light', Arial, sans-serif;
+  text-align: center;
+  height: 710px;
+  background: linear-gradient(to bottom, #6dffc6, #3fd2ce);
+}
+.hero h1 {
+  padding-top: 200px;
+  font-size: 60pt;
+  color: #fff;
+}
+.hero a {
+  font-family: 'Roboto Medium', Arial, sans-serif;
+  font-size: 15px;
+  display: block;
+  padding: 25px 0;
+  margin: 40px auto 0 auto;
+  width: 240px;
+  color: #fff;
+  background: linear-gradient(to bottom, #ff6c54, #ff2b59);
+  border-radius: 10px;
+  text-decoration: none;
+}
+@media (max-width: 437px) {
+  .hero h1 {
+    font-size: 50px;
   }
 }

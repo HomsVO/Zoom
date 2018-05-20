@@ -30,7 +30,7 @@
   border-radius: 10px;
   background: linear-gradient(to bottom, #6dffc6, #3fd2ce);
 }
-#nav-toogler {
+#nav-toggler {
   display: none;
   font-size: 35px;
   border: none;
@@ -38,8 +38,12 @@
   outline: none;
   cursor: pointer;
 }
+.nav-toggler--active {
+  color: #fff;
+  background: linear-gradient(to bottom, #6dffc6, #3fd2ce) !important;
+}
 @media (max-width: 574px) {
-  #nav-toogler {
+  #nav-toggler {
     display: block;
   }
   .nav {
@@ -48,7 +52,9 @@
   .nav-bar {
     display: none;
     position: absolute;
-    top: 90px;
+    background-color: #fff;
+    border-bottom: 3px solid #ff2b59;
+    top: 100px;
     left: 0;
   }
   .nav-bar__item {
@@ -66,5 +72,8 @@
   }
   .nav-bar__item a:hover {
     background: none;
+  }
+  .nav-bar--mobile {
+    display: block;
   }
 }
