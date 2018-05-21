@@ -1,11 +1,11 @@
 .services {
   font-size: 15px;
-  height: 600px;
+  min-height: 600px;
 }
 .services a {
   display: block;
   font-size: 20px;
-  margin: 90px 0 80px 0;
+  margin: 90px auto 80px auto;
   padding: 25px 0;
   width: 240px;
   color: #fff;

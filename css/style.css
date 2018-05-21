@@ -235,12 +235,12 @@ table {
 }
 .services {
   font-size: 15px;
-  height: 600px;
+  min-height: 600px;
 }
 .services a {
   display: block;
   font-size: 20px;
-  margin: 90px 0 80px 0;
+  margin: 90px auto 80px auto;
   padding: 25px 0;
   width: 240px;
   color: #fff;
@@ -265,4 +265,27 @@ table {
   font-family: 'Roboto Regular', Arial, sans-serif;
   font-size: 13px;
   color: #929ba0;
+}
+.browser-add {
+  text-align: center;
+  background: linear-gradient(to bottom, #ff6c54, #ff2b59);
+  max-height: 680px;
+}
+.browser-add h2 {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Roboto Light', Arial, sans-serif;
+  padding: 80px 0 40px;
+}
+.browser-add p {
+  color: #fff;
+  font-size: 13px;
+}
+.browser-add img {
+  top: 3px;
+  position: relative;
+  margin-top: 120px;
+  padding-bottom: 0;
+  max-width: 100%;
+  height: auto;
 }
