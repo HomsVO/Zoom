@@ -1,6 +1,7 @@
 .browser-add {
   text-align: center;
   background: linear-gradient(to bottom, #ff6c54, #ff2b59);
+  padding: 50px 0;
   max-height: 680px;
 }
 .browser-add h2 {
