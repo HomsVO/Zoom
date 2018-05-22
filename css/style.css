@@ -332,3 +332,53 @@ table {
     font-size: 30pt;
   }
 }
+.tabs__content {
+  display: none;
+  /* по умолчанию прячем все блоки */
+}
+.active {
+  color: #fff!important;
+}
+.tabs__content.active {
+  display: block;
+  /* по умолчанию показываем нужный блок */
+}
+.portfolio {
+  text-align: center;
+  background: linear-gradient(to bottom, #6dffc6, #3fd2ce);
+  padding: 50px 0;
+  max-height: 680px;
+}
+.portfolio h2 {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Roboto Light', Arial, sans-serif;
+  padding: 80px 0 40px;
+}
+.portfolio p {
+  color: #fff;
+  font-size: 13px;
+}
+.portfolio .tabs__caption {
+  margin: 100px auto 0;
+  width: 60%;
+  justify-content: space-around;
+  display: flex;
+}
+.portfolio .tabs__caption li {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #3f4244;
+  font-size: 15px;
+  font-family: 'Roboto Medium', Arial, sans-serif;
+}
+.portfolio__block {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+}
+.portfolio__block .img {
+  width: 370px;
+  height: 240px;
+  background-color: #232e3d;
+}
