@@ -30,6 +30,7 @@
   width: 60%;
   justify-content: space-around;
   display: flex;
+  flex-wrap: wrap;
 }
 .portfolio .tabs__caption li {
   cursor: pointer;
@@ -56,7 +57,7 @@
   background-color: #fff;
   width: 320px;
   margin: 20px;
-  height: 360px;
+  min-height: 360px;
 }
 .portfolio__block .img {
   width: 100%;
@@ -74,6 +75,9 @@
   color: #929ba0;
   font-size: 13px;
   padding: 15px 30px;
+}
+.show-more__btn {
+  cursor: pointer;
 }
 .show-more__block {
   width: 100%;
