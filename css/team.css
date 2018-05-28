@@ -2,7 +2,7 @@
   text-align: center;
   background: #fff;
   padding: 0 0 90px 0 ;
-  max-height: 680px;
+  min-height: 680px;
 }
 .team h2 {
   font-size: 40px;
