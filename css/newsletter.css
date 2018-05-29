@@ -1,0 +1,19 @@
+.newsletter {
+  text-align: center;
+  background-color: #233537;
+  padding: 20px 0;
+}
+.newsletter h2 {
+  font-family: 'Roboto Regular', Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  padding: 60px 0 40px;
+}
+.newsletter input {
+  background: none;
+  border: 2px solid #3fd2ce;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 13px;
+  font-family: 'Roboto Regular', Arial, sans-serif;
+}

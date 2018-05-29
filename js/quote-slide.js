@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-var slider, slide; 
+var slider;
+var slide; 
 var current_slide = 0;
 
 /* */	
@@ -46,13 +47,6 @@ function show_slide(slider,current_slide){
 }
 /* =========== функция для показа нужного слайда =============*/
 
-/*вызывам нашу функцию slider('#slider') и передаем параметром наш слайдер т.е  '#slider'
-также можно сделать несколко слайдеров.
-slider('#slider1');
-slider('#slider2');
-slider('#slider3');
-slider('#slider3');
- */
 slider('#slider');
 
 });
