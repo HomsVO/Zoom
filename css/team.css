@@ -14,14 +14,6 @@
   color: #929ba0;
   font-size: 13px;
 }
-.team img {
-  top: 3px;
-  position: relative;
-  margin-top: 120px;
-  padding-bottom: 0;
-  max-width: 100%;
-  height: auto;
-}
 .team__blocks {
   display: flex;
   justify-content: space-around;

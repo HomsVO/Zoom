@@ -451,14 +451,6 @@ table {
   color: #929ba0;
   font-size: 13px;
 }
-.team img {
-  top: 3px;
-  position: relative;
-  margin-top: 120px;
-  padding-bottom: 0;
-  max-width: 100%;
-  height: auto;
-}
 .team__blocks {
   display: flex;
   justify-content: space-around;
@@ -596,4 +588,119 @@ table {
     height: auto;
     padding-bottom: 50px;
   }
+}
+.clients {
+  text-align: center;
+  background: #fff;
+  padding: 100px 0 90px 0 ;
+  min-height: 680px;
+}
+.clients h2 {
+  font-size: 40px;
+  color: #3f4244;
+  font-family: 'Roboto Light', Arial, sans-serif;
+  padding: 80px 0 40px;
+}
+.clients p {
+  color: #929ba0;
+  font-size: 13px;
+}
+.clients__blocks {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 30px;
+}
+.clients__block {
+  text-align: center;
+  background-color: #4ee0cb;
+  width: 340px;
+  margin: 30px 0;
+}
+.clients__block h3 {
+  padding: 40px 0 0 0;
+  font-family: 'Roboto Medium', Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+.clients__block p {
+  font-family: 'Roboto Regular', Arial, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px 30px 50px;
+}
+.clients__block h4 {
+  font-size: 13px;
+  font-family: 'Roboto Regular', Arial, sans-serif;
+  color: #243638;
+  padding: 20px 0;
+}
+.contact-us {
+  text-align: center;
+  background: linear-gradient(to bottom, #ff6c54, #ff2b59);
+  padding: 0 0 90px 0 ;
+  min-height: 680px;
+}
+.contact-us h2 {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Roboto Light', Arial, sans-serif;
+  padding: 80px 0 40px;
+}
+.contact-us p {
+  color: #fff;
+  font-size: 13px;
+}
+.contact-us__input {
+  width: 100%;
+  background: none;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  margin-top: 100px;
+}
+.contact-us__input::placeholder {
+  color: #fff;
+}
+.contact-us a {
+  display: block;
+  margin: 30px 0 0 0;
+  width: 100%;
+  padding: 15px 10px;
+  background-color: #233537;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto Regular', Arial, sans-serif;
+  text-decoration: none;
+}
+.map {
+  position: relative;
+}
+.map__adress {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 370px;
+  height: 175px;
+  background-color: #56e8ca;
+  color: #fff;
+  padding-left: 75px;
+}
+.map__adress p {
+  margin-top: 30px;
+  text-align: left;
+}
+.footer {
+  background-color: #233537;
+  color: #fff;
+  text-align: center;
+}
+.footer h2 {
+  font-size: 15px;
+  font-family: 'Roboto Medium', Arial, sans-serif;
+  padding: 40px 0 ;
+}
+.footer span {
+  color: #10cab7;
 }
