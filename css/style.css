@@ -687,9 +687,14 @@ table {
   color: #fff;
   padding-left: 75px;
 }
-.map__adress p {
-  margin-top: 30px;
+.map__adress h4 {
+  margin-top: 35px;
   text-align: left;
+}
+.map iframe {
+  border: 0;
+  width: 100%;
+  height: 400px;
 }
 .footer {
   background-color: #233537;
